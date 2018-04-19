@@ -1,0 +1,79 @@
+﻿body {
+}
+.row {
+    margin-right: 0px !important;
+}
+
+.hero {
+    height: 63vh;
+    padding-top: 20px;
+}
+
+.carousel {
+    border-radius: 30px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.bigImg {
+}
+
+.rounded-circle {
+    margin-top: 80px;
+    margin-left: 43%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+    .rounded-circle img {
+        width: 300px;
+    }
+
+.apprenticeship {
+    height: 70vh;
+    background-color: darkslategray;
+    color: white;
+    padding-top: 20px;
+}
+
+.more {
+    padding-top: 20px;
+    margin-left: 12%;
+}
+
+.third {
+    background-color: white;
+    color: black;
+    height: 500px;
+    border-radius: 30px;
+    margin: 10px 30px;
+    padding-top: 10px;
+}
+
+.otherInterests {
+    padding-top: 40px;
+}
+
+.other {
+    padding-bottom: 20px;
+}
+
+.finalScreen {
+    margin-left: 7%;
+    margin-bottom: 80px;
+}
+
+.halfimg {
+    width: 400px;
+    margin-left: 23%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.half {
+    height: 500px;
+    margin: 10px 30px;
+}
