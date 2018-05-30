@@ -1,6 +1,11 @@
-﻿.row {
+﻿html{
+  width:100%;
+}
+.row {
   margin-right: 0px !important; }
-
+.navbar {
+  width:100%;
+}
 .hero {
   height: 63vh;
   padding-top: 20px; }
@@ -147,6 +152,49 @@
 
 }
 
-  
-  
 
+
+  @media (max-width:1024px){
+     html{
+      font-size: 18px;
+    }
+     .hero{
+      height: 45vh;
+    }
+    .apprenticeship{
+      height: 55vh;
+    }
+    .more{
+      margin-left:0px;
+    }
+    .third{
+      margin: 10px 20px;
+      margin-left: 30px;
+    }
+    .finalScreen{
+      margin-left:  40px !important;
+    }
+    .half {
+    height: auto; 
+    margin: auto; 
+    }
+    .halfimg {
+        width: 400px;
+        margin-left: auto; 
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    .btn{
+      margin-left: 30%;
+    }
+
+  }
+ 
+  @media (max-width:411px){
+    html{
+      font-size: 22px;
+    }.hero{
+      height: 25vh;
+    }
+    
+  }
