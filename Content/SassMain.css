@@ -61,7 +61,6 @@
   padding-bottom: 20px; }
 
 .finalScreen {
-  margin-left: 7%;
   margin-bottom: 80px; }
 
 .half img {
@@ -102,7 +101,12 @@ margin-left: 20%;}
 
 .grid-item {
   margin: 10px; }
-
+.video{
+  margin: 30px 0 0 0;
+}
+.viking-img{
+  margin-bottom: 20px;
+}
 .viking-img img {
   background-color: darkslategray; }
 
@@ -162,6 +166,9 @@ margin-left: 20%;}
        margin: 10px 20px;
       margin-left: 60px;
   }
+  .viking-img{
+    margin-left: -10px;
+  }
  }
   @media (max-width: 1220px){
   .third{margin-left: 30px;}
@@ -192,7 +199,7 @@ margin-left: 20%;}
   }
  
 
-@media(max-width:760px){
+@media(max-width:767px){
   html{
     font-size: 16px;
   }
@@ -209,6 +216,12 @@ margin-left: 20%;}
 .half img{
   margin-left: 30%;
 }
+.grid-middle{
+  padding-left: 10px;
+} 
+.viking-img{
+      margin: 10px 0;
+    }
 }
 
 @media(max-width:560px){
@@ -221,10 +234,11 @@ margin-left: 20%;}
     .half img{
       margin-left: 10%;
     }
+
 }
  @media (max-width: 411px){
     html{
-      font-size: 22px;
+      font-size: 16px;
     }
      .apprenticeship{
       height: 35vh;
