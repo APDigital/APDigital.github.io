@@ -42,7 +42,8 @@
   height: 500px;
   border-radius: 30px;
   margin: 10px 30px;
-  padding-top: 10px; }
+  padding-top: 10px; 
+}
 
 .otherInterests {
   padding-top: 40px; }
@@ -63,11 +64,11 @@
   margin-left: 7%;
   margin-bottom: 80px; }
 
-.halfimg {
+.half img {
   width: 400px;
-  margin-left: 23%;
   border-radius: 30px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px; 
+margin-left: 20%;}
 
 .half {
   height: 500px;
@@ -151,50 +152,83 @@
   background-position: center;
 
 }
-
-
-
-  @media (max-width:1024px){
+ @media (max-width: 2000px){
+  .apprenticeship{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .third{
+    height:auto;
+       margin: 10px 20px;
+      margin-left: 60px;
+  }
+ }
+  @media (max-width: 1220px){
+  .third{margin-left: 30px;}
+}
+ @media (max-width: 1024px){
      html{
       font-size: 18px;
     }
      .hero{
-      height: 45vh;
-    }
-    .apprenticeship{
       height: 55vh;
     }
     .more{
       margin-left:0px;
     }
-    .third{
-      margin: 10px 20px;
-      margin-left: 30px;
-    }
-    .finalScreen{
-      margin-left:  40px !important;
-    }
+  
+   .third{
+      margin: 10px 10px;
+   }
     .half {
     height: auto; 
     margin: auto; 
     }
-    .halfimg {
-        width: 400px;
-        margin-left: auto; 
-        border-radius: 30px;
-        margin-bottom: 20px;
-    }
+   
     .btn{
       margin-left: 30%;
     }
 
   }
  
-  @media (max-width:411px){
+
+@media(max-width:760px){
+  html{
+    font-size: 16px;
+  }
+.apprenticeship{
+  height: auto;
+  padding-bottom: 20px;
+}
+.third{
+  height: auto;
+}
+.finalScreen{
+  margin-left: auto;
+}
+.half img{
+  margin-left: 30%;
+}
+}
+
+@media(max-width:560px){
+  .navbar-brand{
+      font-size: 16px;
+    }
+  .navbar{
+      font-size: 16px;
+    }
+    .half img{
+      margin-left: 10%;
+    }
+}
+ @media (max-width: 411px){
     html{
       font-size: 22px;
-    }.hero{
-      height: 25vh;
     }
-    
+     .apprenticeship{
+      height: 35vh;
+    }
   }
+
+ 
