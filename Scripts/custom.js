@@ -8,7 +8,7 @@ $(document).ready(function(){
             }
         } 
     };
-    
+
 	var number = "";
     var newnumber = "";
     var operator = "";
@@ -51,4 +51,33 @@ $(document).ready(function(){
         result.toString();
         totaldiv.text(result);
         });
+
+
+
+    var today = new Date();
+    var currTime = document.getElementById("currTime");
+
+    var currHrs = addZero(today.getHours());
+    var currMins = addZero(today.getMinutes());
+    currTime.innerHTML = currHrs + ":" + currMins;
+
+    function addZero(i) {
+        if (i < 10) {
+            i = "0" + 1;
+        }
+        return i;
+    }
+
+    var message = document.getElementById("Message");
+    var testHrs = currHrs + 8;
+
+    if (currHrs <= 12) {
+        message.innerHTML = " Good Morning!";
+    }
+    else if (currHrs >= 13) {
+        message.innerHTML = " Good Afternoon";
+    }
+
+
+
 });

@@ -210,3 +210,20 @@
     background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
     border-radius: 10px;
 }
+$tablet: 1024px;
+$mobile: 411px;
+
+
+
+
+  @media (max-width:$mobile){
+    .hero{
+      height: 25vh;
+    }
+  }
+
+  @media (max-width:1024px){
+    .hero{
+      height: 45vh;
+    }
+  }
